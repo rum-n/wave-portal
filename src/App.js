@@ -1,6 +1,6 @@
 import './App.css';
 import * as React from "react";
-import { ethers } from "ethers";
+// import { ethers } from "ethers";
 
 function App() {
   const wave = () => {
@@ -8,7 +8,7 @@ function App() {
   }
 
   return (
-    <div className="mainContainer">
+    <div className="flex justify-center w-full mt-10">
 
       <div className="dataContainer">
         <div className="header">
